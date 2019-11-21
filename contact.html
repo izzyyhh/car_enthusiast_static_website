@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CarJunkie Contact me per email</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="header-container">
+                <div id="nav-container">
+                    <nav class="navbar">
+                        <a class="logo" href="index.html">CARJUNKIE</a>
+
+                        <ul class="nav-links" id="menu">
+                            <li><a href="favourite_car.html" tabindex="0">FavAutombile</a></li>
+                            <li><a href="dragrace.html" tabindex="0">Reactiongame</a></li>
+                            <li><a href="environment.html" tabindex="0">Environment</a></li>
+                            <li><a href="contact.html" id="active-link" tabindex="0">ContactMe</a></li>
+                        </ul>
+
+                        <button class="burger"  aria-label="Navigation"  aria-controls="menu">
+                            <span id="line1"></span>
+                            <span id="line2"></span>  
+                            <span id="line3"></span>
+                        </button>
+                    </nav>
+                    <div class="header-content">
+                        <p>Automobiles are</p>
+                        <h1>PURE PERFECTION</h1>
+                        <p>Beauty and performance combined</p>
+
+                        <ul>
+                            <li>&#10084;</li>
+                            <li>hp</li>
+                            <li>km/h</li>
+                            <li>Nm</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="normal-article">
+                <article>
+                    <h2>Contact me</h2>
+                    <p>Hello there! Do not hesitate to contact me.
+                    </p>
+                </article>
+
+                <form class="sendemail" action="mailto:i.halili99@hotmail.com" method="POST" enctype="text/plain">
+                    <h2>Send me an email</h2>
+                    <h3 style="font-size: 1.8rem;">From who?</h3>
+                    <label for="firstname">First name </label>
+                    <input type="text" name="firstname" id="firstname" minlength="3" maxlength="30" placeholder="Max" pattern="[a-zA-Z\s]*" required>
+                    <label for="lastname">Last name </label>
+                    <input type="text" name="lastname" id="lastname" minlength="3" maxlength="30" placeholder="Mustermann" pattern="[a-zA-Z\s]*" required>
+                    <label for="country">Living in</label>
+                    <input type="text" name="country" id="country" placeholder="Austria" maxlength="30" pattern="[a-zA-Z\s]*" minlength="4" list="countrylist">
+                    <datalist id="countrylist">
+                            <option value="Austria">Austria</option>
+                            <option value="Germany">Germany</option>
+                            <option value="UK">UK</option>
+                            <option value="USA">USA</option>
+                            <option value="Italy">Italy</option>
+                        </datalist>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="10" max="130">
+                    <fieldset>
+                        <legend>Gender</legend>
+                            <label for="male"><input type="radio" name="gender" value="male" id="male" checked required>Male </label>
+                            <label for="female"><input type="radio" name="gender" value="female" id="female">Female </label>
+                            <label for="other"><input type="radio" name="gender" value="other" id="other">Other </label>
+                    </fieldset>
+                    <h3 style="font-size: 1.8rem;">One interesting question :D</h3>
+                    <label for="onequestion">What is your favourtie car?</label>
+                    <input type="text" id="onequestion" placeholder="Nissan Skyline R34 GT-R" maxlength="20">
+                    <label for="message">Your message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input class="linkbutton" id="submitbutton" type="submit" value="Send email">
+                </form>
+            </div>
+
+
+
+
+
+
+
+        </main>
+        <section class="disc-more">
+            <h2>Discover more.</h2>
+            <p>MY RECOMMANDATIONS</p>
+            <div class="examples-to-disc">
+                <div class="first-row">
+                <a class="recommendation" href="https://www.topgear.com/">Top gear</a>
+                <a class="recommendation" href="https://www.youtube.com/channel/UCak3selG2oi5vn7sbqdaULA">GRIP</a>
+                <a class="recommendation" href="https://www.youtube.com/channel/UCUhFaUpnq31m6TNX2VKVSVA">carwow</a>
+            </div>
+            <div class="second-row">
+                <a class="recommendation" href="https://www.youtube.com/channel/UCyXiDU5qjfOPxgOPeFWGwKw">Throttle House</a>
+                <a class="recommendation" href="https://de.wikipedia.org/wiki/The_Fast_and_the_Furious_(Filmreihe)">Fast and Furious</a>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <div class="reference">
+            <h2>Reference</h2>
+            <p>I found the pictures on <a href="https://unsplash.com/">Unsplash</a> and
+            <a href="https://pixabay.com">Pixabay</a> ! I have to thank the photgraphers for those great images, they offer for free.
+        </p>
+            <ul>
+                <li><a href="https://unsplash.com/photos/-oVaYMgBMbs">Header-background by Olav Tvedt</a></li>
+                <li><a href="https://unsplash.com/photos/m3m-lnR90uM">Header-background by Peter Broomfield</a></li>
+                <li><a href="https://unsplash.com/photos/N9Pf2J656aQ">Ford Mustang by Lance Asper</a></li>
+                <li><a href="https://unsplash.com/photos/hqhIsVNYi6o">Nissan 370z by Pavel Anoshin</a></li>
+                <li><a href="https://unsplash.com/photos/5FGqfV6UjzI">Nissan GTR R35 by Jonathan Gallegos</a></li>
+                <li><a href="https://unsplash.com/photos/B7OomXkl9eI">Toyota Supra MK4 by Tim Meyer</a></li>
+                <li><a href="https://unsplash.com/photos/jIkZf783krU">VW Beetle by Rustyness</a></li>
+                <li><a href="https://unsplash.com/photos/jizryVUQjVo">Nissan GTR R34 by Alexander Nisman</a></li>
+                <li><a href="https://unsplash.com/photos/AlNTDc99-hU">Article 'History Of Automobiles' picture by British Library</a></li>
+            </ul>
+        </div>
+        <div class="links-to-pages">
+            <h2>Other</h2>
+            <p>Here is a list of my other pages.</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="favourite_car.html">Favourite Car</a></li>
+                <li><a href="environment.html">Environment</a></li>
+                <li><a href="dragrace.html">Reactiongame</a></li>
+            </ul>
+        </div>
+        <div class="aboutme">
+            <h2>About ME</h2>
+            <p>Hello there! My name is Izzy and I enjoyed creating this
+                website. I hope you like my page. You can find me
+                on social networks listed below. Have a nice day!
+            </p>
+            <ul>
+                <li><a href="https://twitter.com/clapperfool">Twitter</a></li>
+                <li><a href="https://www.instagram.com/izzyy_hh/">Instagram</a></li>
+                <li><a href="contact.html">Or send me an e-mail</a></li>
+            </ul>
+        </div>
+            
+        </footer>
+        <div class="end">CARJUNKIE by Izzy @2019</div>
+        <script src="scripts/script.js"></script>
+    </div>
+
+</body>
+
+</html>
